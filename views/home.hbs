@@ -14,12 +14,12 @@
   <tbody>
     {{#each rows}}
       <tr>
-        <td>{{this.ID}}</td>
-        <td>{{this. NAME}}</td>
-        <td>{{this.AGE}}</td>
-        <td>{{this.CITY}}</td>
-        <td><a class="edit" href="/edituser/{{this.ID}}">Edit</a></td>
-        <td><a onclick="return confrim('Are you sure?')" class="delete" href="/deleteuser/{{this.ID}}">Delete</a>Delete</td>
+        <td>{{this.id}}</td>
+        <td>{{this.name}}</td>
+        <td>{{this.age}}</td>
+        <td>{{this.city}}</td>
+        <td><a class="edit" href="/edituser/{{this.id}}">Edit</a></td>
+        <td><a onclick="return confrim('Are you sure?')" class="delete" href="/deleteuser/{{this.id}}">Delete</a></td>
       </tr>
     {{/each}}
   </tbody>
